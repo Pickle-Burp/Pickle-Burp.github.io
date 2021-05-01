@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.8cc21e1893eaeb4df7fa0eba007caa3c.js"
+  "/precache-manifest.cf50ba4afdbdc6cbeb5673a48d5868d5.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "safexty-website"});
+workbox.core.setCacheNameDetails({prefix: "petits-fruits"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
