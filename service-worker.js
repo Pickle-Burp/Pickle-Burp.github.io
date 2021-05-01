@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.cf50ba4afdbdc6cbeb5673a48d5868d5.js"
+  "/precache-manifest.c7099d69816a8d7fbe2b8911066a853a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "petits-fruits"});
